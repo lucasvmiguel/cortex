@@ -1609,8 +1609,6 @@ storage:
     # CLI flag: -alertmanager.storage.s3.signature-version
     [signature_version: <string> | default = "v4"]
 
-<<<<<<< HEAD
-=======
     sse_config:
       # Enable AWS Server Side Encryption. Only SSE-S3 and SSE-KMS are supported
       # CLI flag: -alertmanager.storage.s3.sse-config.type
@@ -1629,7 +1627,6 @@ storage:
     # CLI flag: -alertmanager.storage.local.path
     [path: <string> | default = ""]
 
->>>>>>> 0925ad6b2... Adds support to S3 server side encryption using AWS KMS
 # Enable the experimental alertmanager config api.
 # CLI flag: -experimental.alertmanager.enable-api
 [enable_api: <boolean> | default = false]
